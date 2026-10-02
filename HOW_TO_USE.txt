@@ -1,0 +1,54 @@
+HOW TO USE: voice-biometric-profiler
+====================================
+
+PURPOSE
+  Generate ultra-deep, exhaustive, forensic-grade voice biometric and acoustic profile reports.
+  Serves as the master physical and acoustic source/filter spine for voice cloning, parametric
+  synthesis, speaker verification, and clinical monitoring.
+
+CAPABILITIES
+  - 10-section exhaustive acoustic and biomechanical analysis
+  - Fundamental frequency (F0) distribution, range, stability, and glottal flow dynamics
+  - Time-domain waveform properties (symmetry, zero-crossing, envelope attack/decay)
+  - Frequency-domain spectral characteristics (harmonic structure, tilt, HNR, formants F1-F4)
+  - Perturbation metrics (jitter, shimmer, CPPS, GRBAS perceptual scores)
+  - Supraglottic resonance profiles and anatomical correlates (VTL, laryngeal tension)
+  - Master parameter table for voice synthesis (Kokoro, Klatt, WORLD, VITS)
+
+USE CASES
+  - "Give me the forensic acoustic breakdown of this person's voice"
+  - You need the master biometric dossier before building satellite skills
+  - Calibrating parametric or neural TTS models to clone an individual's vocal timbre
+  - Forensic speaker comparison and acoustic voice authentication
+
+IDEAS
+  - Run recording-chain-measurement-ingest first to provide calibrated empirical numbers
+  - Pair with speaking-personality-profile for complete 360-degree acoustic + behavioral coverage
+  - Feed section 10 parameters directly into synthesis-control-compiler
+
+PROMPTS YOU CAN PASTE
+  /voice-biometric-profiler Queens-male-orator
+
+  create voice profile for Steve Jobs
+
+  detailed voice biometric report on 30yo adult male with Down syndrome
+
+  analyze this voice like the DS profile. Give me the complete 10-section acoustic breakdown.
+
+  give me the forensic acoustic breakdown of this speaker from the provided audio.
+
+EXAMPLE FLOW
+  You:   /voice-biometric-profiler Queens-male-orator
+  Model: VOICE BIOMETRIC & ACOUSTIC PROFILE
+         Subject: 79-year-old Caucasian male, Queens NYC accent...
+         1. F0 & Glottal Source: Mean 159.4 Hz, Range 120-220+ Hz, Modal pressed...
+         2. Time-Domain: Quasi-periodic, sharp closing attack, shimmer 0.38 dB...
+         3. Spectral: F1=578, F2=924, F3=2345, F4=3480 Hz; Alpha ratio -6.5 dB...
+         4. Perturbation: Jitter 0.88%, HNR 16.4 dB, CPPS 12.8 dB, GRBAS G1 R1 B0 A0 S1...
+         [Sections 5-10 complete with Master Synthesis Parameters]
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Complete 10-section forensic acoustic report
+  2. Numerical metrics across all acoustic and glottal domains
+  3. Anatomical and biomechanical mechanism linkages
+  4. Section 10 master synthesis parameter table
