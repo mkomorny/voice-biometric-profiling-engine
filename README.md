@@ -20,3 +20,7 @@ The engine defines a standardized 10-dimension acoustic specification framework:
 ## Dependencies
 
 - Universal Markdown and prompt specification (Zero dependencies).
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](./LICENSE) file for details.
